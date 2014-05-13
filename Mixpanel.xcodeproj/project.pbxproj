@@ -1,0 +1,372 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		63E0BD9D1922852700C4AD0A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63E0BD9C1922852700C4AD0A /* Foundation.framework */; };
+		63E0BDDD192285A500C4AD0A /* Mixpanel.m in Sources */ = {isa = PBXBuildFile; fileRef = 63E0BDC4192285A500C4AD0A /* Mixpanel.m */; };
+		63E0BDDE192285A500C4AD0A /* MPNotification.m in Sources */ = {isa = PBXBuildFile; fileRef = 63E0BDC6192285A500C4AD0A /* MPNotification.m */; };
+		63E0BDDF192285A500C4AD0A /* MPNotificationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63E0BDC9192285A500C4AD0A /* MPNotificationViewController.m */; };
+		63E0BDE0192285A500C4AD0A /* MPSurvey.m in Sources */ = {isa = PBXBuildFile; fileRef = 63E0BDCB192285A500C4AD0A /* MPSurvey.m */; };
+		63E0BDE1192285A500C4AD0A /* MPSurveyNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63E0BDCE192285A500C4AD0A /* MPSurveyNavigationController.m */; };
+		63E0BDE2192285A500C4AD0A /* MPSurveyQuestion.m in Sources */ = {isa = PBXBuildFile; fileRef = 63E0BDD0192285A500C4AD0A /* MPSurveyQuestion.m */; };
+		63E0BDE3192285A500C4AD0A /* MPSurveyQuestionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63E0BDD2192285A500C4AD0A /* MPSurveyQuestionViewController.m */; };
+		63E0BDE4192285A500C4AD0A /* NSData+MPBase64.m in Sources */ = {isa = PBXBuildFile; fileRef = 63E0BDD4192285A500C4AD0A /* NSData+MPBase64.m */; };
+		63E0BDE5192285A500C4AD0A /* UIColor+MPColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 63E0BDD6192285A500C4AD0A /* UIColor+MPColor.m */; };
+		63E0BDE6192285A500C4AD0A /* UIImage+MPAverageColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 63E0BDD8192285A500C4AD0A /* UIImage+MPAverageColor.m */; };
+		63E0BDE7192285A500C4AD0A /* UIImage+MPImageEffects.m in Sources */ = {isa = PBXBuildFile; fileRef = 63E0BDDA192285A500C4AD0A /* UIImage+MPImageEffects.m */; };
+		63E0BDE8192285A500C4AD0A /* UIView+MPSnapshotImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 63E0BDDC192285A500C4AD0A /* UIView+MPSnapshotImage.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		63E0BD971922852700C4AD0A /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		63E0BD991922852700C4AD0A /* libMixpanel.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libMixpanel.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		63E0BD9C1922852700C4AD0A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		63E0BDAA1922852700C4AD0A /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		63E0BDAD1922852700C4AD0A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		63E0BDB41922852700C4AD0A /* MixpanelTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MixpanelTests-Info.plist"; sourceTree = "<group>"; };
+		63E0BDB61922852700C4AD0A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		63E0BDB81922852700C4AD0A /* MixpanelTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MixpanelTests.m; sourceTree = "<group>"; };
+		63E0BDC21922857D00C4AD0A /* Mixpanel-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Mixpanel-Prefix.pch"; sourceTree = SOURCE_ROOT; };
+		63E0BDC3192285A500C4AD0A /* Mixpanel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Mixpanel.h; sourceTree = "<group>"; };
+		63E0BDC4192285A500C4AD0A /* Mixpanel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Mixpanel.m; sourceTree = "<group>"; };
+		63E0BDC5192285A500C4AD0A /* MPNotification.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MPNotification.h; sourceTree = "<group>"; };
+		63E0BDC6192285A500C4AD0A /* MPNotification.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MPNotification.m; sourceTree = "<group>"; };
+		63E0BDC7192285A500C4AD0A /* MPNotification.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = MPNotification.storyboard; sourceTree = "<group>"; };
+		63E0BDC8192285A500C4AD0A /* MPNotificationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MPNotificationViewController.h; sourceTree = "<group>"; };
+		63E0BDC9192285A500C4AD0A /* MPNotificationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MPNotificationViewController.m; sourceTree = "<group>"; };
+		63E0BDCA192285A500C4AD0A /* MPSurvey.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MPSurvey.h; sourceTree = "<group>"; };
+		63E0BDCB192285A500C4AD0A /* MPSurvey.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MPSurvey.m; sourceTree = "<group>"; };
+		63E0BDCC192285A500C4AD0A /* MPSurvey.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = MPSurvey.storyboard; sourceTree = "<group>"; };
+		63E0BDCD192285A500C4AD0A /* MPSurveyNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MPSurveyNavigationController.h; sourceTree = "<group>"; };
+		63E0BDCE192285A500C4AD0A /* MPSurveyNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MPSurveyNavigationController.m; sourceTree = "<group>"; };
+		63E0BDCF192285A500C4AD0A /* MPSurveyQuestion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MPSurveyQuestion.h; sourceTree = "<group>"; };
+		63E0BDD0192285A500C4AD0A /* MPSurveyQuestion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MPSurveyQuestion.m; sourceTree = "<group>"; };
+		63E0BDD1192285A500C4AD0A /* MPSurveyQuestionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MPSurveyQuestionViewController.h; sourceTree = "<group>"; };
+		63E0BDD2192285A500C4AD0A /* MPSurveyQuestionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MPSurveyQuestionViewController.m; sourceTree = "<group>"; };
+		63E0BDD3192285A500C4AD0A /* NSData+MPBase64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+MPBase64.h"; sourceTree = "<group>"; };
+		63E0BDD4192285A500C4AD0A /* NSData+MPBase64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+MPBase64.m"; sourceTree = "<group>"; };
+		63E0BDD5192285A500C4AD0A /* UIColor+MPColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+MPColor.h"; sourceTree = "<group>"; };
+		63E0BDD6192285A500C4AD0A /* UIColor+MPColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+MPColor.m"; sourceTree = "<group>"; };
+		63E0BDD7192285A500C4AD0A /* UIImage+MPAverageColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+MPAverageColor.h"; sourceTree = "<group>"; };
+		63E0BDD8192285A500C4AD0A /* UIImage+MPAverageColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+MPAverageColor.m"; sourceTree = "<group>"; };
+		63E0BDD9192285A500C4AD0A /* UIImage+MPImageEffects.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+MPImageEffects.h"; sourceTree = "<group>"; };
+		63E0BDDA192285A500C4AD0A /* UIImage+MPImageEffects.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+MPImageEffects.m"; sourceTree = "<group>"; };
+		63E0BDDB192285A500C4AD0A /* UIView+MPSnapshotImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+MPSnapshotImage.h"; sourceTree = "<group>"; };
+		63E0BDDC192285A500C4AD0A /* UIView+MPSnapshotImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+MPSnapshotImage.m"; sourceTree = "<group>"; };
+		63E0BDE9192285B600C4AD0A /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Media.xcassets; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		63E0BD961922852700C4AD0A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63E0BD9D1922852700C4AD0A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		63E0BD901922852700C4AD0A = {
+			isa = PBXGroup;
+			children = (
+				63E0BD9E1922852700C4AD0A /* Mixpanel */,
+				63E0BDB21922852700C4AD0A /* MixpanelTests */,
+				63E0BD9B1922852700C4AD0A /* Frameworks */,
+				63E0BD9A1922852700C4AD0A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		63E0BD9A1922852700C4AD0A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				63E0BD991922852700C4AD0A /* libMixpanel.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		63E0BD9B1922852700C4AD0A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				63E0BD9C1922852700C4AD0A /* Foundation.framework */,
+				63E0BDAA1922852700C4AD0A /* XCTest.framework */,
+				63E0BDAD1922852700C4AD0A /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		63E0BD9E1922852700C4AD0A /* Mixpanel */ = {
+			isa = PBXGroup;
+			children = (
+				63E0BDC3192285A500C4AD0A /* Mixpanel.h */,
+				63E0BDC4192285A500C4AD0A /* Mixpanel.m */,
+				63E0BDC5192285A500C4AD0A /* MPNotification.h */,
+				63E0BDC6192285A500C4AD0A /* MPNotification.m */,
+				63E0BDC7192285A500C4AD0A /* MPNotification.storyboard */,
+				63E0BDC8192285A500C4AD0A /* MPNotificationViewController.h */,
+				63E0BDC9192285A500C4AD0A /* MPNotificationViewController.m */,
+				63E0BDCA192285A500C4AD0A /* MPSurvey.h */,
+				63E0BDCB192285A500C4AD0A /* MPSurvey.m */,
+				63E0BDCC192285A500C4AD0A /* MPSurvey.storyboard */,
+				63E0BDCD192285A500C4AD0A /* MPSurveyNavigationController.h */,
+				63E0BDCE192285A500C4AD0A /* MPSurveyNavigationController.m */,
+				63E0BDCF192285A500C4AD0A /* MPSurveyQuestion.h */,
+				63E0BDD0192285A500C4AD0A /* MPSurveyQuestion.m */,
+				63E0BDD1192285A500C4AD0A /* MPSurveyQuestionViewController.h */,
+				63E0BDD2192285A500C4AD0A /* MPSurveyQuestionViewController.m */,
+				63E0BDD3192285A500C4AD0A /* NSData+MPBase64.h */,
+				63E0BDD4192285A500C4AD0A /* NSData+MPBase64.m */,
+				63E0BDD5192285A500C4AD0A /* UIColor+MPColor.h */,
+				63E0BDD6192285A500C4AD0A /* UIColor+MPColor.m */,
+				63E0BDD7192285A500C4AD0A /* UIImage+MPAverageColor.h */,
+				63E0BDD8192285A500C4AD0A /* UIImage+MPAverageColor.m */,
+				63E0BDD9192285A500C4AD0A /* UIImage+MPImageEffects.h */,
+				63E0BDDA192285A500C4AD0A /* UIImage+MPImageEffects.m */,
+				63E0BDDB192285A500C4AD0A /* UIView+MPSnapshotImage.h */,
+				63E0BDDC192285A500C4AD0A /* UIView+MPSnapshotImage.m */,
+				63E0BDE9192285B600C4AD0A /* Media.xcassets */,
+				63E0BD9F1922852700C4AD0A /* Supporting Files */,
+			);
+			path = Mixpanel;
+			sourceTree = "<group>";
+		};
+		63E0BD9F1922852700C4AD0A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				63E0BDC21922857D00C4AD0A /* Mixpanel-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		63E0BDB21922852700C4AD0A /* MixpanelTests */ = {
+			isa = PBXGroup;
+			children = (
+				63E0BDB81922852700C4AD0A /* MixpanelTests.m */,
+				63E0BDB31922852700C4AD0A /* Supporting Files */,
+			);
+			path = MixpanelTests;
+			sourceTree = "<group>";
+		};
+		63E0BDB31922852700C4AD0A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				63E0BDB41922852700C4AD0A /* MixpanelTests-Info.plist */,
+				63E0BDB51922852700C4AD0A /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		63E0BD981922852700C4AD0A /* Mixpanel */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 63E0BDBC1922852700C4AD0A /* Build configuration list for PBXNativeTarget "Mixpanel" */;
+			buildPhases = (
+				63E0BD951922852700C4AD0A /* Sources */,
+				63E0BD961922852700C4AD0A /* Frameworks */,
+				63E0BD971922852700C4AD0A /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Mixpanel;
+			productName = Mixpanel;
+			productReference = 63E0BD991922852700C4AD0A /* libMixpanel.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		63E0BD911922852700C4AD0A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Black Pixel";
+			};
+			buildConfigurationList = 63E0BD941922852700C4AD0A /* Build configuration list for PBXProject "Mixpanel" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 63E0BD901922852700C4AD0A;
+			productRefGroup = 63E0BD9A1922852700C4AD0A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				63E0BD981922852700C4AD0A /* Mixpanel */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		63E0BD951922852700C4AD0A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63E0BDE1192285A500C4AD0A /* MPSurveyNavigationController.m in Sources */,
+				63E0BDE5192285A500C4AD0A /* UIColor+MPColor.m in Sources */,
+				63E0BDE7192285A500C4AD0A /* UIImage+MPImageEffects.m in Sources */,
+				63E0BDE0192285A500C4AD0A /* MPSurvey.m in Sources */,
+				63E0BDE2192285A500C4AD0A /* MPSurveyQuestion.m in Sources */,
+				63E0BDE3192285A500C4AD0A /* MPSurveyQuestionViewController.m in Sources */,
+				63E0BDE4192285A500C4AD0A /* NSData+MPBase64.m in Sources */,
+				63E0BDE8192285A500C4AD0A /* UIView+MPSnapshotImage.m in Sources */,
+				63E0BDDF192285A500C4AD0A /* MPNotificationViewController.m in Sources */,
+				63E0BDDD192285A500C4AD0A /* Mixpanel.m in Sources */,
+				63E0BDE6192285A500C4AD0A /* UIImage+MPAverageColor.m in Sources */,
+				63E0BDDE192285A500C4AD0A /* MPNotification.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		63E0BDB51922852700C4AD0A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				63E0BDB61922852700C4AD0A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		63E0BDBA1922852700C4AD0A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		63E0BDBB1922852700C4AD0A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		63E0BDBD1922852700C4AD0A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/Mixpanel.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Mixpanel-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		63E0BDBE1922852700C4AD0A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/Mixpanel.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Mixpanel-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		63E0BD941922852700C4AD0A /* Build configuration list for PBXProject "Mixpanel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				63E0BDBA1922852700C4AD0A /* Debug */,
+				63E0BDBB1922852700C4AD0A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		63E0BDBC1922852700C4AD0A /* Build configuration list for PBXNativeTarget "Mixpanel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				63E0BDBD1922852700C4AD0A /* Debug */,
+				63E0BDBE1922852700C4AD0A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 63E0BD911922852700C4AD0A /* Project object */;
+}
